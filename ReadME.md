@@ -2,25 +2,25 @@
 
 ## 成果展示
 
-![image-20230319154847869](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230319154847869.png)
+![image-20230319154847869](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230319154847869.png)
 
 ## 布局
 
-![image-20230319154939680](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230319154939680.png)
+![image-20230319154939680](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230319154939680.png)
 
 使用五个TextView，分别实现小时：分钟，秒钟，am，pm，周日，具体日期几个数值。
 
-![image-20230319155229679](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230319155229679.png)
+![image-20230319155229679](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230319155229679.png)
 
 布局主题背景颜色采用#000000（纯黑色），各TextView字体颜色采用#FFFFFF(纯白色)。
 
 **默认布局**
 
-![image-20230319155449527](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230319155451688.png)
+![image-20230319155449527](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230319155451688.png)
 
 ### 约束关系
 
-![image-20230320192651458](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230320192651458.png)
+![image-20230320192651458](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230320192651458.png)
 
 对于几个TextView的位置布局，我们依靠一个非常实用的方法：**约束关系**(**ConstraintLayout**)。
 
@@ -29,11 +29,11 @@
 - 无任何嵌套，减少布局层级，优化渲染性能
 - 能完全代替其他布局![image-20230320192904698](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230320192904698.png)
 
-![image-20230320193113262](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230320193113262.png)
+![image-20230320193113262](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230320193113262.png)
 
-![image-20230320193227863](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230320193227863.png)
+![image-20230320193227863](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230320193227863.png)
 
-![image-20230320193452070](C:\Users\23770\AppData\Roaming\Typora\typora-user-images\image-20230320193452070.png)
+![image-20230320193452070](https://github.com/Cotton-tan/Timer-TimerTask-/blob/main/%E6%88%AA%E5%9B%BE/image-20230320193452070.png)
 
 通过约束关系，组件布局将变得无比easy~
 
